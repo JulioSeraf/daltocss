@@ -1,0 +1,35 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:100;
+    font-size: 30px;
+}
+.contenedor{
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    position: static;
+    margin: 50px auto;
+}
+div{
+    display: block;
+    background-color: blue;
+    position: absolute;
+}
+
+.caja1{
+    background-color: red;
+    
+}
+.caja2{
+    background-color: yellow;
+   
+    
+}
+.caja3{
+    background-color: aqua;
+ 
+}
+.caja4{
+    background-color: brown;
+    
+}
