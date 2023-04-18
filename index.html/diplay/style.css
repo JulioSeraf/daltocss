@@ -1,4 +1,4 @@
-h1, h2{
+/* h1, h2{
     background-color: gray;
     display: table;
     width: 300px;
@@ -18,4 +18,21 @@ img{
     width: 300px;
     position: relative;
     left: 50px;
+} */
+
+
+.contener{  
+    
+}
+.contener > div{
+    float: left;
+    width: 30%;
+    overflow: hidden;
+}
+
+.first{
+    background-color: blue;
+}
+.segund{
+    background-color: gray;
 }
