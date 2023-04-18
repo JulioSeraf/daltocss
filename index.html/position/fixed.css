@@ -1,0 +1,10 @@
+body{
+ font-size: 40px;
+ padding-top: 100px;
+ 
+}
+.text{
+    position:sticky;
+    background-color: blue;
+      
+}
