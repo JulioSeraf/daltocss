@@ -4,19 +4,26 @@
     font-weight: 100;
 }
 .text{
-    padding: 20px;
+    position: absolute;
+    padding-top: 40px;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    background-color: red;
+    transition: all 2s;
 }
-.text::before{
-    content: "J";
-    color: red;
-    font-size: 50px;
+.text:hover{
+    background: aqua;
+    width: 200px;
+    height: 200px;
+    transition:all 2s;
+    transform: translate(50%);
+    transform: rotate(400grad);
+    border-radius: 50%;
+   
 }
-input::placeholder{
- color: yellow;
-
-}
-*::selection{
-    color: red;
-    background-color: aqua;
-    border: 1px solid black;
+.text:active{
+    
+    transform: rotate(-400grad);
+    background-color: yellow;
 }
