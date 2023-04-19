@@ -1,38 +1,22 @@
-/* h1, h2{
-    background-color: gray;
-    display: table;
-    width: 300px;
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
 }
-body{
-    background-color: black;
+.text{
+    padding: 20px;
 }
-.child{
+.text::before{
+    content: "J";
+    color: red;
+    font-size: 50px;
+}
+input::placeholder{
+ color: yellow;
+
+}
+*::selection{
+    color: red;
+    background-color: aqua;
     border: 1px solid black;
-    font-size: 40px;
-    width: 300px;
-    height: 200px;
-    overflow:hidden;
-    background-color: white;
-}
-img{
-    width: 300px;
-    position: relative;
-    left: 50px;
-} */
-
-
-.contener{  
-    
-}
-.contener > div{
-    float: left;
-    width: 30%;
-    overflow: hidden;
-}
-
-.first{
-    background-color: blue;
-}
-.segund{
-    background-color: gray;
 }
