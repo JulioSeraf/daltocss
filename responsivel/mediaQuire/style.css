@@ -4,3 +4,44 @@
     padding: 0;
 
 }
+.nav__responsive-ul{
+    display:none;
+}
+.nav{
+    background-color: rgb(23, 110, 139);
+}
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: white;
+}
+.nav__li a {
+    text-decoration: none;
+    color: white;
+}
+.nav__li i{
+    width: 30px;
+    text-align: right;   
+    margin-right: 5px;
+}
+.nav__li:hover{
+    color: aqua;
+}
+.nav__li > a:hover{
+    text-decoration: underline;
+}
+@media only screen and (max-width: 460px){
+    .nav__ul{
+        display: none;
+    }
+    .nav__responsive-ul{
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+    .nav{
+        height:42px;
+        width: 100%;
+    }
+
+}
