@@ -1,0 +1,13 @@
+.flex-contener{
+    display:flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+}
+.flex-item{
+    background-color: blue;
+    min-width: 120px;
+    flex: auto;
+    height: 120px;
+    margin: 10px;
+    color:wheat;
+}
