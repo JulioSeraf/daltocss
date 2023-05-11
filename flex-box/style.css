@@ -1,20 +1,37 @@
 .flex-contener{
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+    margin: 50px 40px;
+    padding: 10px;
+    
     
 }
-.flex-item{
+.form{
+    flex: 1;
+    padding: 20px;
     text-align: center;
-    background-color: blue;
-    min-width: 120px;
-    height: 100px;
-    margin: 10px;
-    color:wheat;
-    width: 200px;
+    
 }
-.orange{
-    background-color: orange;
+.form__input{
+    width: 90%;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgba(254, 255, 255, 0.192);
+    border: none;
+    border-bottom: 1px solid blue;
 }
-.green{
-    background-color: green;
+.form textarea{
+    min-height: 150px;
+    
+}
+.form-img{
+    display: flex;
+    width: 30%;
+}
+.form-img > img{
+    width: 300px;
+    margin: auto;
 }
